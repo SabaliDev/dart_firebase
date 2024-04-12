@@ -1,4 +1,4 @@
-irebase Dart CRUD
+Firebase Dart CRUD
 This Dart package provides a convenient way to interact with Firebase Firestore, allowing you to perform Create, Read, Update, and Delete (CRUD) operations on your Firestore database.
 
 Features
