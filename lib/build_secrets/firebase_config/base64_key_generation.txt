@@ -1,0 +1,12 @@
+For .env file, start by converting '\n' characters to proper newlines (shift-enter)
+
+Then run the base64 util in the cli:
+
+```
+base64 <<< "-----BEGIN PRIVATE KEY-----
+...fooo
+...fooo
+-----END PRIVATE KEY-----"
+```
+
+Place the resulting value in the PRIVATE_KEY_BASE_64 value of the .env file

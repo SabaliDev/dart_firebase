@@ -1,0 +1,32 @@
+name: dart_firebase
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.3.1
+
+# Add regular dependencies here.
+dependencies:
+  googleapis_auth: ^1.6.0
+  firebase_dart: ^1.0.11
+  envied: ^0.5.2
+  riverpod: ^2.3.6
+  riverpod_annotation: ^2.1.1
+  
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
+  build_runner: ^2.3.3
+  envied_generator: ^0.5.2
+  freezed: ^2.3.2
+  freezed_annotation: ^2.2.0
+  functions_framework_builder: ^0.4.0
+  json_serializable: ^6.0.0
+  lints: ^3.0.0
+  mockito: ^5.3.2
+  riverpod_generator: ^2.2.3
+  test: ^1.24.9
+  test_process: ^2.0.0
